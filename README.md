@@ -23,7 +23,7 @@
 #### On Windows:
 
 1. Clone the repo,
-2. Copy and paste **MVPActivity**, **MVPFragment** folders into **{ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/**.
+2. Copy and paste **MVPActivity**, **MVPFragment** folders into **{path-to-android-studio-installation}/plugins/android/lib/templates/other/**.
 3. Restart Android Studio for the templates to show-up in the menu.
 
 ### How to use 
@@ -40,13 +40,11 @@ Demo:
 
 ### FYI
 
-* These generated files are written purely for Java. Taking the advantage of interoperability, you can easily convert these Java files to Kotlin from Android Studio - *Code > Convert Java File to Kotlin File*.
 * The onDestroy() life cycle method triggers a function to attempt and cancel any ongoing network requests. This is useful to avoid memory leaks after view death.
 * Contains bare-bone functions to make an API call, notifying data set changes and dismissing the progress indicator.
 
 ### TODO
 
-* Add comments as built-in tutorials.
 * Auto-register all generated Activities in the manifest.
 * Auto-create the activity and fragment XML layout.
 
