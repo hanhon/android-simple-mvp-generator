@@ -71,14 +71,4 @@ public class ${className}Activity extends Activity implements ${className}Main.P
         mPresenter.onDestroy();
         super.onDestroy();
     }
-
-    @Override
-    public Context getAppContext() {
-        return this.getApplicationContext();
-    }
-
-    @Override
-    public Context getActivityContext() {
-        return this;
-    }
 }

@@ -8,39 +8,41 @@
 
 ### How to set up? ###
 
+#### On a Debian distro (Ubuntu, e.t.c):
+
+1. Clone the repo,
+2. Copy and paste - **MVPActivity**, **MVPFragment**  into **{path-to-android-studio-package}/plugins/android/lib/templates/activities/**.
+3. Restart Android Studio for the templates to show-up in the menu.
+
 #### On Mac OSX:
 
 1. Clone the repo,
 2. Copy and paste - **MVPActivity**, **MVPFragment**  into **/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/**.
-3. Add **implementation 'com.uberfables.library:simple_mvp_generator:1.0.0'** to your app level gradle file (3 KB in size). 
-4. For the templates to show-up in Android Studio's menu list, make sure Android Studio is restarted.
-
+3. Restart Android Studio for the templates to show-up in the menu.
 
 #### On Windows:
 
 1. Clone the repo,
 2. Copy and paste **MVPActivity**, **MVPFragment** folders into **{ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/**.
-3. Add **implementation 'com.uberfables.library:simple_mvp_generator:1.0.0'** to your app level gradle file (3 KB in size). 
-4. For the templates to show-up in Android Studio's menu list, make sure Android Studio is restarted.
+3. Restart Android Studio for the templates to show-up in the menu.
 
 ### How to use 
 
-1. Android Studio > File > New![](https://i.imgur.com/idT1seu.png)
-2. Make a feature package,
+1. Make a feature package,
 ![enter image description here](https://i.imgur.com/JMtIgMz.png) 
-3. Pick Simple MVP Generator,
-4. Select "MVP with Activity/ Fragment as a view"
+2. Pick Simple MVP Generator,
+3. Select "MVP with Activity/ Fragment as a view"
 ![enter image description here](https://i.imgur.com/fW9RIv2.png)
-5. Set the name of the app-feature and hit finish,
+4. Set the name of the app-feature and hit finish,
 ![enter image description here](https://i.imgur.com/zZYP4eO.png)
-6. Your view is now ready and linked to it's model, view and presenter!
+5. Your view is now ready and linked to it's model, view and presenter!
 ![enter image description here](https://i.imgur.com/UMnfk3w.png)
 ![enter image description here](https://i.imgur.com/vNpdaEW.png)
 ![enter image description here](https://i.imgur.com/8KJ8TXY.png)
 
 ### FYI
 
-* These generated files are written purely in Java. Taking the advantage of interoperability, you can easily convert these Java files to Kotlin from Android Studio - *Code > Convert Java File to Kotlin File*.
+* These generated files are written purely for Java. Taking the advantage of interoperability, you can easily convert these Java files to Kotlin from Android Studio - *Code > Convert Java File to Kotlin File*.
 * The onDestroy() life cycle method triggers a function to attempt and cancel any ongoing network requests. This is useful to avoid memory leaks after view death.
 * Contains bare-bone functions to make an API call, notifying data set changes and dismissing the progress indicator.
 
@@ -48,7 +50,7 @@
 
 * Add comments as built-in tutorials.
 * Auto-register all generated Activities in the manifest.
-* Auto-create the layout XML.
+* Auto-create the activity and fragment XML layout.
 
 ### Caveats
 

@@ -2,12 +2,11 @@ package ${packageName};
 
 import java.util.List;
 
-import com.uberfables.library.simple.mvp.generator.IContext;
 import com.uberfables.library.simple.mvp.generator.IShowError;
 
 public interface ${className}Main {
 
-    interface ModelToPresenter extends IContext, IShowError {
+    interface ModelToPresenter extends IShowError {
         void notifyDataSetChanged();
         void onDataLoaded(List list);
     }
@@ -22,7 +21,7 @@ public interface ${className}Main {
         void onDestroy();
     }
 
-    interface PresenterToView extends IContext {
+    interface PresenterToView {
         void notifyDataSetChanged();
         void onError(String message);
         void onDataLoaded(List list);

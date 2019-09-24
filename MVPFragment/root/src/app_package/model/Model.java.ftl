@@ -10,9 +10,14 @@ public class ${className}Model implements ${className}Main.PresenterToModel {
         this.mPresenter = presenter;
     }
 
+    /**
+     * Within loadData(), perform an API call or fetch data from database.
+     * Call mPresenter.onDataLoaded() returning the list of results.
+     * ${className}Activity will receive a call back contains the result list. Use it to render your UI.
+     */
     @Override
     public void loadData() {
-
+        // mPresenter.onDataLoaded();
     }
 
      /**

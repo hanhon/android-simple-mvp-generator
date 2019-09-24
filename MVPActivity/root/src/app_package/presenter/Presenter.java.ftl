@@ -1,7 +1,5 @@
 package ${packageName}.presenter;
 
-import android.content.Context;
-
 import java.util.List;
 
 import ${packageName}.${className}Main;
@@ -15,16 +13,6 @@ public class ${className}Presenter extends BasePresenter<${className}Main.Presen
 
     public ${className}Presenter(${className}Main.PresenterToView view) {
         super(view);
-    }
-
-    @Override
-    public Context getAppContext() {
-        return getView().getAppContext();
-    }
-
-    @Override
-    public Context getActivityContext() {
-        return getView().getActivityContext();
     }
 
     @Override

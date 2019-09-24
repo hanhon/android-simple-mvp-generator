@@ -1,16 +1,15 @@
 package ${packageName}.view;
 
-import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.List;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import java.util.List;
 
 import ${packageName}.${className}Main;
 import ${packageName}.model.${className}Model;
@@ -18,7 +17,6 @@ import ${packageName}.presenter.${className}Presenter;
 
 public class ${className}Fragment extends Fragment implements ${className}Main.PresenterToView {
 
-    // TODO: Rename parameter arguments, choose names that match
     // the ${className} initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -31,7 +29,6 @@ public class ${className}Fragment extends Fragment implements ${className}Main.P
         // Required empty public constructor
     }
 
-    // TODO: Rename and change types and number of parameters
     public static ${className}Fragment newInstance(String param1, String param2) {
         ${className}Fragment fragment= new ${className}Fragment();
         Bundle args = new Bundle();
@@ -105,15 +102,5 @@ public class ${className}Fragment extends Fragment implements ${className}Main.P
     public void onDestroy() {
         mPresenter.onDestroy();
         super.onDestroy();
-    }
-
-    @Override
-    public Context getAppContext() {
-        return this.getAppContext();
-    }
-
-    @Override
-    public Context getActivityContext() {
-        return this.requireContext();
     }
 }

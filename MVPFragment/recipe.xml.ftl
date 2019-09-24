@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <recipe>
+
+     <dependency mavenUrl="com.uberfables.library:simple_mvp_generator:1.0.0" />
  
     <instantiate from="src/app_package/presenter/Presenter.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/presenter/${className}Presenter.java" />
