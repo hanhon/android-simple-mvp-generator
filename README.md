@@ -11,26 +11,26 @@
 #### On a Debian distro (Ubuntu, e.t.c):
 
 1. Clone the repo,
-2. Copy and paste - **MVPActivity**, **MVPFragment**  into **{path-to-android-studio-package}/plugins/android/lib/templates/activities/**
+2. Copy and paste folders - **MVPActivity**, **MVPFragment**  into **{path-to-android-studio-package}/plugins/android/lib/templates/other/**
 3. Restart Android Studio for the templates to show-up in the menu.
 
 #### On Mac OSX:
 
 1. Clone the repo,
-2. Copy and paste - **MVPActivity**, **MVPFragment**  into **/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/**
+2. Copy and paste folders - **MVPActivity**, **MVPFragment**  into **/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/**
 3. Restart Android Studio for the templates to show-up in the menu.
 
 #### On Windows:
 
 1. Clone the repo,
-2. Copy and paste **MVPActivity**, **MVPFragment** folders into **{path-to-android-studio-installation}/plugins/android/lib/templates/other/**
+2. Copy and paste folders - **MVPActivity**, **MVPFragment** folders into **{path-to-android-studio-installation}/plugins/android/lib/templates/other/**
 3. Restart Android Studio for the templates to show-up in the menu.
 
 ### How to use 
 
 1. Make a feature package,
 2. Pick Simple MVP Generator,
-3. Select "MVP with Activity/ Fragment as a view"
+3. Select "MVP with Activity/ Fragment as a view",
 4. Set the name of the app-feature and hit finish,
 5. Your view is now ready and linked to it's model, view and presenter!
 
