@@ -29,16 +29,14 @@
 ### How to use 
 
 1. Make a feature package,
-![enter image description here](https://i.imgur.com/JMtIgMz.png) 
 2. Pick Simple MVP Generator,
 3. Select "MVP with Activity/ Fragment as a view"
-![enter image description here](https://i.imgur.com/fW9RIv2.png)
 4. Set the name of the app-feature and hit finish,
-![enter image description here](https://i.imgur.com/zZYP4eO.png)
 5. Your view is now ready and linked to it's model, view and presenter!
-![enter image description here](https://i.imgur.com/UMnfk3w.png)
-![enter image description here](https://i.imgur.com/vNpdaEW.png)
-![enter image description here](https://i.imgur.com/8KJ8TXY.png)
+
+Demo:
+
+![](demo_simple_mvp_generator.gif)
 
 ### FYI
 
