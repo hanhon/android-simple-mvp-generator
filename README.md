@@ -11,19 +11,19 @@
 #### On a Debian distro (Ubuntu, e.t.c):
 
 1. Clone the repo,
-2. Copy and paste - **MVPActivity**, **MVPFragment**  into **{path-to-android-studio-package}/plugins/android/lib/templates/activities/**.
+2. Copy and paste - **MVPActivity**, **MVPFragment**  into **{path-to-android-studio-package}/plugins/android/lib/templates/activities/**
 3. Restart Android Studio for the templates to show-up in the menu.
 
 #### On Mac OSX:
 
 1. Clone the repo,
-2. Copy and paste - **MVPActivity**, **MVPFragment**  into **/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/**.
+2. Copy and paste - **MVPActivity**, **MVPFragment**  into **/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/**
 3. Restart Android Studio for the templates to show-up in the menu.
 
 #### On Windows:
 
 1. Clone the repo,
-2. Copy and paste **MVPActivity**, **MVPFragment** folders into **{path-to-android-studio-installation}/plugins/android/lib/templates/other/**.
+2. Copy and paste **MVPActivity**, **MVPFragment** folders into **{path-to-android-studio-installation}/plugins/android/lib/templates/other/**
 3. Restart Android Studio for the templates to show-up in the menu.
 
 ### How to use 
